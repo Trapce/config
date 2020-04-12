@@ -6,7 +6,7 @@ spring:
       routes:
       -  uri: http://192.168.1.250:8080/token/
          predicates:
-          - Path=/token/
+          - Path=/tokenn/
 eureka:
   client:
     eureka-server-connect-timeout-seconds: 5
